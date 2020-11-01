@@ -1,0 +1,171 @@
+/*cor de textos menores #263238*/
+/*cor de textos maiores #0091EA*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: ubuntu;
+    color: #263238;
+    cursor: default;
+}
+body
+{
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+}
+#page-home
+{
+    height: 100vh;
+    width: auto;
+
+    margin: 0 auto;
+
+    display: flex;
+}
+#page-home .content
+{
+    width: 90%;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction:column;
+}
+#page-home .content header
+{
+    margin: 30px 0 0 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+#page-home .content header .menu
+{
+    display: flex;
+    
+    align-items: center;
+
+    background-color: #f0f0f5;
+
+    border-radius: 20px;
+
+    transition: 0.4s;
+}
+
+#page-home .content header a
+{
+    text-decoration: none;
+    color: #263238;
+    font-family: ubuntu;
+    
+
+
+    padding: 10px;
+
+    border-radius: 16px;
+
+    transition: 0.2s;
+}
+#page-home .content header a:hover
+{
+    color: #f0f0f5;
+    background-color: #263238;
+}
+form 
+{
+    background-color: #fcfcfc;
+
+    max-width: 1000px;
+    min-width: 500px;
+
+    padding: 60px;
+    margin: 80px auto;
+
+    border-radius: 8px;
+}
+form label
+{
+    color: #263238;
+}
+form h1 
+{
+    font-size: 36px;
+
+
+}
+form fieldset
+{
+    margin-top: 20px;
+    border: 0;
+}
+form h2
+{
+    margin-bottom: 20px;
+}
+form .field
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    margin: 0 8px 5px 0;
+}
+
+form .field-group
+{
+    display: flex;
+    margin-bottom: 8px;
+}
+form input
+{
+    border: 0;
+
+    background-color: #f0f0f0;
+    
+    padding: 8px;
+
+    margin-top: 11px;
+
+    color: #263238;
+
+    outline-color: #0091EA;
+
+}
+form button
+{
+    margin-top: 12px;
+    padding: 20px 218px;
+
+    border: 0;
+
+    background-color: #0091EA;
+    color: #f0f0f0;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: 400ms;
+}
+form button:hover
+{
+    background-color: #007bc7;
+}

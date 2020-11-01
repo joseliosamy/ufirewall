@@ -1,0 +1,14 @@
+{
+    "content": "{@user} Boa garai",
+    "embed": {
+       "color":-1042853,
+      "thumbnail": {
+        "url": "{user-avatar-url}"
+      },
+   "description":"Parabéns '{@user}', você subiu para o nível **'{level}'** (*'{xp}' XP*)! <a:lori_yay_wobbly:638040459721310238>",
+      "author": {
+        "name": "a",
+        "url": "https://discord.gg/euVM9tn"
+      }
+    }
+  }

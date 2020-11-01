@@ -1,0 +1,63 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+h1, h2, h3, h4, h5, h6, p
+{
+    font-family: ubuntu;
+    color: #263238;
+    cursor: default;
+}
+body
+{
+    background-color: #151b1f;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: auto;
+    
+}
+main 
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 15vh;
+}
+main h1
+{
+    color: #0091EA;
+    margin-bottom: 8px;
+}
+textarea
+{
+    resize: none;
+    width: 70vw;
+    height: 60vh;
+    padding: 10px;
+
+    
+    margin: 0;
+    
+    border: 1px #0091EA solid;
+    border-radius: 30px;
+    outline-style: unset;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #0091EA;
+
+    background-color: #151b1f;
+    
+}

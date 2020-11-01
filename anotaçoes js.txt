@@ -1,0 +1,3 @@
+window.alert('salve quebrada')-mostra uma mensagem pop-up
+window.confirm('esta gostando')-mostra uma mensagem pop-up de confirmação
+window.prompt('qual é tu nombre')-mostra uma mensagem pop-up com aba de texto

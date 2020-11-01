@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--System of caracters-->
+    <meta charset="UTF-8">
+    <link rel="icon" href="/images/favicon.svg">
+    <!--scren scale-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--styles-->
+    <link rel="stylesheet" href="/styles/register.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!--title-->
+    <title>Registrar</title>
+</head>
+<body>
+    <!--title initial-->
+    <div id="page-home">
+    <!--header-->
+        <div class="content">
+            <header>
+
+               <img src="/images/logo v6.svg">
+                <!--menu-->
+                <div class="menu">
+                    <a class="strange" href="/index.html">Voltar</a>
+                </div>
+            </header>    
+            
+            <form action="">
+                <h1>Cadastro de usuário</h1>
+                <fieldset>
+                    <legend>
+                        <h2>Dados de usuário</h2>
+                    </legend>
+
+                    <div class="field">
+                        <label for="name">Nome de usuário</label>
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="name-complet">Nome completo</label>
+                        <input type="text" name="name-complet" required>
+                    </div>
+
+
+                        <div class="field-group">
+
+                            <div class="field">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" required>
+                            </div>
+                            <div class="field">
+                                <label for="email-confirm">Confirmação de e-mail</label>
+                                <input type="email" name="email-confirm" required>
+                            </div>
+                        </div>
+                        <div class="field-group">
+
+                            <div class="field">
+                                <label for="key">Senha</label>
+                                <input type="password" name="key" required>
+                            </div>
+                            <div class="field" class="field">
+                                <label for="key-confirm">Confirmação da senha</label>
+                                <input type="password" name="key-confirm" required>
+                            </div>
+
+                        </div>
+                        
+                    
+
+                        <button>Cadastrar</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

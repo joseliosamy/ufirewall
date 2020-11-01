@@ -1,0 +1,132 @@
+/*cor de textos menores #263238*/
+/*cor de textos maiores #0091EA*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+body
+{
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+}
+#page-home
+{
+    height: 100vh;
+    width: auto;
+
+    margin: 0 auto;
+
+    display: flex;
+
+
+    background-image: url(/images/best-background.svg);
+    background-repeat: no-repeat;
+    background-size: 730px;
+    background-position-x: 43rem;
+    background-position-y: -3rem;
+}
+#page-home .content
+{
+    width: 90%;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction:column;
+}
+#page-home .content header
+{
+    margin: 30px 0 0 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+#page-home .content header .menu
+{
+    display: flex;
+    
+    align-items: center;
+
+    background-color: #f0f0f5;
+
+    border-radius: 20px;
+
+    transition: 0.4s;
+}
+
+#page-home .content header .menu a
+{
+    text-decoration: none;
+    color: #263238;
+    font-family: ubuntu;
+    
+
+
+    padding: 10px;
+
+    border-radius: 16px;
+
+    transition: 0.2s;
+}
+#page-home .content header .menu a:hover
+{
+    color: #f0f0f5;
+    background-color: #263238;
+}
+#page-home .content .strange-one
+{
+    transition: 0.2s;
+    
+}
+
+#page-home .content .strange-two
+{
+    background-color: #0091EA;
+}
+#page-home .content main
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    justify-content: center;
+
+    max-width: 660px;
+}
+#page-home .content main h2
+{
+    color: #263238;
+    font-size: 54px;
+    font-family: Ubuntu;
+
+    cursor: default;
+}
+#page-home .content main h2 span
+{
+    color: #0091EA;
+}
+#page-home .content main h4
+{
+    color: #263238;
+    font-size: 22px;
+    font-weight: 400;
+
+    cursor: default;
+}
